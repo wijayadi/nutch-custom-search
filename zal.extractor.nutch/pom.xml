@@ -9,7 +9,13 @@
         <artifactId>zal.parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-	
+<repositories>
+   <repository>
+       <id>maven-restlet</id>
+       <name>Restlet repository</name>
+       <url>https://maven.restlet.talend.com</url>
+   </repository>
+</repositories>	
 	<dependencies>
         <dependency>
             <groupId>ir.co.bayan.simorq</groupId>
